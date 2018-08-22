@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>User Table</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
-        <table>
+        <table class="table">
             <thead>
                 <tr>
-                    <th>id</th>
-                    <th>email</th>
-                    <th>created at</th>
+                    <th scope="col">id</th>
+                    <th scope="col">email</th>
+                    <th scope="col">created at</th>
                 </tr>
             </thead>
             <tbody>

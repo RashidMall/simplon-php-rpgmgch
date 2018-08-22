@@ -2,6 +2,19 @@
 
 <?php 
 class UserTest extends \PHPUnit\Framework\TestCase{
+    // getId()
+    public function testThatMethodReturnsId(){
+        $user = new User('user@mail.com');
+
+        $this->assertEquals(1, $user->getId());
+    }
+
+    // getEmail()
+    public function testThatMethodReturnsEmail(){
+        $user = new User('user@mail.com');
+
+        $this->assertEquals('user@mail.com', $user->getEmail());
+    }
 
     // setId()
     public function testThatMethodCanSetId(){
@@ -37,7 +50,7 @@ class UserTest extends \PHPUnit\Framework\TestCase{
         $this->assertInternalType('string', $user->getEmail());
     }
 
-    // setCreatedAt()
-    
+    // 
+
 }
 ?>
