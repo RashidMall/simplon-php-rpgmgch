@@ -1,4 +1,4 @@
-<?php require './app/User.php'; ?>
+<?php require './app/models/User.php'; ?>
 
 <?php 
 class UserTest extends \PHPUnit\Framework\TestCase{

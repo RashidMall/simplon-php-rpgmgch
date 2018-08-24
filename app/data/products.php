@@ -1,7 +1,7 @@
 <?php 
 // Autoload classes
 function uploadClass($class){
-    require '../models/' . $class . '.php';
+    require __DIR__ . '/../models/' . $class . '.php';
   }
   spl_autoload_register('uploadClass');
 
